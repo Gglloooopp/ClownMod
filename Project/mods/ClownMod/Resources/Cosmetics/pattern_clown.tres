@@ -1,0 +1,27 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
+[ext_resource path="res://mods/ClownMod/Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=2]
+[ext_resource path="res://Assets/Textures/CosmeticIcons/cosmetic_icons61.png" type="Texture" id=3]
+[ext_resource path="res://mods/ClownMod/Assets/Textures/clown_cat.png" type="Texture" id=4]
+[ext_resource path="res://mods/ClownMod/Assets/Textures/clown_dog.png" type="Texture" id=5]
+[ext_resource path="res://mods/ClownMod/Assets/Textures/clown_body.png" type="Texture" id=6]
+
+[resource]
+script = ExtResource( 1 )
+name = "Clown"
+desc = "Get your greasepaint on!"
+title = ""
+icon = ExtResource( 3 )
+species_alt_mesh = [  ]
+mesh_skin = ExtResource( 2 )
+main_color = Color( 0, 0, 0, 1 )
+body_pattern = [ ExtResource( 6 ), ExtResource( 4 ), ExtResource( 5 ) ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "pattern"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = false
+cost = 10
