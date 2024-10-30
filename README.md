@@ -1,4 +1,7 @@
 # ClownMod
+
+<p align="center"><img src="https://i.imgur.com/suWxiOD.png"/></p>
+
 **Adds various clown and Commedia dell'arte cosmetics.**
 
 ## Requires
