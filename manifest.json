@@ -1,11 +1,11 @@
 {
-  "Id": "gglloooopp.ClownMod",
-  "PackPath": "clownmod.pck",
-  "Dependencies": ["Sulayre.Lure"]
-  "Metadata": {
+	"Id": "ClownMod",
+	"PackPath": "ClownMod.pck",
+	"Dependencies": ["Sulayre.Lure"],
+	"Metadata": {
     "Name": "ClownMod",
     "Author": "Gloop",
     "Version": "1.0.1",
-    "Description": "Adds Clown Cosmetics"
+    "Description": "Adds various clown themed cosmetics."
   }
 }
