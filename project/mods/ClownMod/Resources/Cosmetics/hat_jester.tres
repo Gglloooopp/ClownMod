@@ -1,0 +1,32 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
+[ext_resource path="res://mods/ClownMod/Assets/Models/Accessories/jester_cap.tres" type="ArrayMesh" id=2]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=3]
+[ext_resource path="res://mods/ClownMod/Assets/Textures/CosmeticIcons/jester_cap_icon.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Materials/red.tres" type="Material" id=5]
+[ext_resource path="res://Assets/Materials/yellow.tres" type="Material" id=6]
+[ext_resource path="res://Assets/Materials/purple.tres" type="Material" id=7]
+
+[resource]
+script = ExtResource( 1 )
+name = "Jester Cap"
+desc = "A Fool's Hat"
+title = ""
+icon = ExtResource( 4 )
+mesh = ExtResource( 2 )
+species_alt_mesh = [  ]
+mesh_skin = ExtResource( 3 )
+material = ExtResource( 5 )
+secondary_material = ExtResource( 6 )
+third_material = ExtResource( 7 )
+main_color = Color( 1, 1, 1, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "hat"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = true
+cost = 10

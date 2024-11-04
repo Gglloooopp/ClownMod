@@ -1,0 +1,29 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Materials/dark.tres" type="Material" id=2]
+[ext_resource path="res://mods/ClownMod/Assets/Models/Accessories/beret_dog.tres" type="ArrayMesh" id=3]
+[ext_resource path="res://mods/ClownMod/Assets/Models/Accessories/beret_cat.tres" type="ArrayMesh" id=4]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=5]
+[ext_resource path="res://mods/ClownMod/Assets/Textures/CosmeticIcons/beret_icon.png" type="Texture" id=6]
+
+[resource]
+script = ExtResource( 1 )
+name = "Beret"
+desc = "Fatally French"
+title = ""
+icon = ExtResource( 6 )
+mesh = ExtResource( 4 )
+species_alt_mesh = [ ExtResource( 4 ), ExtResource( 3 ) ]
+mesh_skin = ExtResource( 5 )
+material = ExtResource( 2 )
+main_color = Color( 1, 1, 1, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "hat"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = true
+cost = 10
